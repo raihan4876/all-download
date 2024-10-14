@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website with Popup Ad and Banners</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Linking the external CSS file -->
+</head>
+<body>
+
+    <header>
+        <!-- Top Left Heading -->
+        <div class="top-left-heading">All DownloadeR</div>
+
+        <!-- Responsive Navigation Menu -->
+        <nav>
+            <div class="logo">Logo</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active" onclick="showDetails('home')">Home</a></li>
+                <li><a href="#about" onclick="showDetails('about')">About</a></li>
+                <li><a href="#services" onclick="showDetails('services')">Services</a></li>
+                <li><a href="#contact" onclick="showDetails('contact')">Contact</a></li>
+            </ul>
+            <div class="burger" onclick="toggleMenu()">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Ad Banner 1 (Top) -->
+    <div class="ad-banner">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1632493947558411"
+     crossorigin="anonymous"></script>
+<!-- test-ad -->
+    <ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1632493947558411"
+     data-ad-slot="2794636649"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+    <script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    </div>
+
+    <section>
+        <div class="button-container">
+            <h1>Download Video FREE</h1>
+            <a href="#" class="button" onclick="buttonClicked('https://ytmp3.so/en/youtube-4k-downloader')">YouTube 4K </a>
+            <a href="#" class="button" onclick="buttonClicked('https://fdownloader.net/en')">FaceBook</a>
+            <a href="#" class="button" onclick="buttonClicked('https://ssstik.io/en-1')">TikTok</a>
+            <a href="#" class="button" onclick="buttonClicked('https://pindown.io')">PinteRest</a>
+        </div>
+
+        <!-- Ad Banner 2 (Between buttons) -->
+        <div class="ad-banner">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1632493947558411"
+     crossorigin="anonymous"></script>
+<!-- test-ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1632493947558411"
+     data-ad-slot="2794636649"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+        </div>
+    </section>
+
+    <!-- Popup Ad Section -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2>Ad Popup</h2>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1632493947558411"
+     crossorigin="anonymous"></script>
+<!-- test-ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1632493947558411"
+     data-ad-slot="2794636649"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+        <button class="close-btn" onclick="closePopup()">Close</button>
+    </div>
+    </div>
+
+    <!-- Details Section -->
+    <section id="details" class="details-section">
+        <h2>Welcome!</h2>
+        <p>Select an item from the menu to see the details.</p>
+    </section>
+
+    <!-- Ad Banner 3 (Bottom Section before paragraph) -->
+    <div class="ad-banner">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1632493947558411"
+     crossorigin="anonymous"></script>
+<!-- test-ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1632493947558411"
+     data-ad-slot="2794636649"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
+
+    <!-- Bottom Paragraph -->
+    <section class="bottom-paragraph">
+        <p>This is a paragraph at the bottom of the page. You can add some information here or a footer message.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+
+    <!-- Ad Banner 4 (In footer) -->
+    <div class="ad-banner">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1632493947558411"
+     crossorigin="anonymous"></script>
+<!-- test-ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1632493947558411"
+     data-ad-slot="2794636649"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
+
+    <script src="scripts.js"></script> <!-- Linking the external JS file -->
+</body>
+</html>
